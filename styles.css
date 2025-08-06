@@ -2,18 +2,24 @@
 
  *{
     margin:0;
+    font-family: "RomanticSignature", sans-serif;
 }
 
 h1 {
-  font-family: "RomanticSignature", sans-serif;
   text-align: center;
   font-size: 40px;
   margin-top: 40px;
   font-weight: 500;
 }
 
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
 p {
-  font-family: "RomanticSignature", sans-serif;
   text-align: center;
   font-size: 25px;
   margin-top: -10px;
@@ -41,7 +47,6 @@ body {
 }
 
 #invitacion .top {
-    font-family: "RomanticSignature", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-left: 65px;
@@ -53,7 +58,6 @@ body {
 }
 
 #invitacion .bottom {
-    font-family: "RomanticSignature", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-left: 65px;
@@ -67,4 +71,47 @@ body {
   display: block;
   margin: auto;
   margin-top: 30px;
+}
+
+#losdetalles {
+    background-color: #DDE8E5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#losdetalles fieldset {
+  border: 2px solid #000; /* Customize your border style */
+  padding: 10px; /* Adjust padding as needed */
+  margin-left: 30px; /* Adjust margin as needed */
+  margin-right: 30px; /* Adjust margin as needed */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#losdetalles fieldset legend {
+  padding: 0 10px; /* Add padding around the text within the legend */
+  color: #000; /* Optional: Set text color */
+  text-align: left;
+  font-size: 25px;
+}
+
+#losdetalles fieldset p {
+  font-size: 20px;
+}
+
+#losdetalles fieldset #direccion {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#losdetalles fieldset #cuenta {
+  font-size: 15px;
+  text-align: right;
+
+}
+
+#losdetalles fieldset button{
+   background-color: #B6CEC7;
+   margin-top: 10px;
+   font-size: 20px;
 }
