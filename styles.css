@@ -119,7 +119,7 @@ body {
 #itinerario {
   background-color: #EEE2F8;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .itinerario {
@@ -152,4 +152,27 @@ body {
   margin-left: auto;
   height: 120px;
   width: auto;
+}
+
+#asistencia {
+  background-color: #FDD3C9;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+#final {
+  padding-top: 20px;
 }
