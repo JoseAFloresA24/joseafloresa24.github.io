@@ -113,5 +113,43 @@ body {
 #losdetalles fieldset button{
    background-color: #B6CEC7;
    margin-top: 10px;
-   font-size: 20px;
+   
+}
+
+#itinerario {
+  background-color: #EEE2F8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.itinerario {
+  background-color: #FFAC99;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 30px;
+  box-shadow:
+  0 0 0 20px #EEE2F8,
+  0 0 0 24px #FFAC99;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  background-color: #FFAC99;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: #FFAC99;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.grid-item img {
+  display: block;
+  margin-left: auto;
+  height: 120px;
+  width: auto;
 }
