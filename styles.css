@@ -118,12 +118,15 @@ body {
 #losdetalles fieldset button{
    background-color: #B6CEC7;
    margin-top: 10px;
+   border-radius: 0;
    
 }
 
 #losdetalles img {
   width: 100%; /* Makes the image take up 100% of its parent's width */
-  height: auto;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
 }
 
 #itinerario {
@@ -164,10 +167,10 @@ body {
 .grid-item img {
   display: block;
   margin-left: auto;
-  height: 120px;
-  width: auto;
   width: 150px; /* Makes the image take up 100% of its parent's width */
-  height: auto;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
 }
 
 #asistencia {
@@ -196,6 +199,7 @@ body {
 
 .centered button{
   margin-top: 10px;
+  border-radius: 0;
 }
 
 #final {
