@@ -71,9 +71,11 @@ body {
 #invitacion img {
   display: block;
   margin: auto;
-  margin-top: 30px;
   width: 100%; /* Makes the image take up 100% of its parent's width */
-  height: auto;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  transform: rotateY(180deg);
 }
 
 #losdetalles {
@@ -164,7 +166,7 @@ body {
   margin-left: auto;
   height: 120px;
   width: auto;
-  width: 100%; /* Makes the image take up 100% of its parent's width */
+  width: 150px; /* Makes the image take up 100% of its parent's width */
   height: auto;
 }
 
@@ -181,6 +183,8 @@ body {
 .container img {
   width: 100%; /* Makes the image take up 100% of its parent's width */
   height: auto;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 .centered {
@@ -210,6 +214,7 @@ body {
   display: block;
   margin: auto;
   margin-top: 30px;
-  width: 95%; /* Makes the image take up 100% of its parent's width */
+  width: 100%; /* Makes the image take up 100% of its parent's width */
   height: auto;
+  transform: rotateY(180deg);
 }
