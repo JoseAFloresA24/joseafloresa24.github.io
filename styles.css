@@ -37,6 +37,8 @@ body {
   0 0 0 40px #EBA432;
   display: block;
   margin: auto;
+  width: 65%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
   margin-top: 50px;
 }
 
