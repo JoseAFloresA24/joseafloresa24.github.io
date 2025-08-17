@@ -41,7 +41,6 @@ body {
 }
 
 #invitacion {
-    background-color: #E2CEF3;
     margin-top: 70px;
     padding-bottom: 30px;
 }
@@ -75,7 +74,7 @@ body {
 
 #losdetalles {
     background-color: #DDE8E5;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
@@ -122,6 +121,10 @@ body {
   padding-bottom: 60px;
 }
 
+#itinerario h2 {
+  padding-top: 50px;
+}
+
 .itinerario {
   background-color: #FFAC99;
   margin-left: 10%;
@@ -144,7 +147,7 @@ body {
 .grid-item {
   background-color: #FFAC99;
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .grid-item img {
@@ -173,6 +176,24 @@ body {
   transform: translate(-50%, -55%);
 }
 
+.centered button{
+  margin-top: 10px;
+}
+
 #final {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#final p {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -50px;
+  font-weight: 300;
+}
+
+#final img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
 }
