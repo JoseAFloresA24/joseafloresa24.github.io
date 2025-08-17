@@ -72,6 +72,8 @@ body {
   display: block;
   margin: auto;
   margin-top: 30px;
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
 }
 
 #losdetalles {
@@ -117,6 +119,11 @@ body {
    
 }
 
+#losdetalles img {
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
+}
+
 #itinerario {
   background-color: #EEE2F8;
   padding-top: 30px;
@@ -157,6 +164,8 @@ body {
   margin-left: auto;
   height: 120px;
   width: auto;
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
 }
 
 #asistencia {
@@ -169,6 +178,11 @@ body {
   position: relative;
   text-align: center;
   color: black;
+}
+
+.container img {
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
 }
 
 .centered {
@@ -198,4 +212,6 @@ body {
   display: block;
   margin: auto;
   margin-top: 30px;
+  width: 95%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
 }
